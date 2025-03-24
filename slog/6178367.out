@@ -1,0 +1,41 @@
+==========================================
+HPC Regression Test Suite
+Timestamp: 20260115_153057
+Nodes: 4
+Results: /well/kir-scratch/sansom/mat611/regression-suite/RESULTS/results_20260115_153057.json
+==========================================
+
+[1/6] Single-client sequential I/O...
+  Write: 3220.34
+3219.94 MB/s
+  Read: 5321
+5320.99 MB/s
+
+[2/6] Multi-client parallel I/O (file-per-process)...
+  Write (16 tasks): 14866
+14861.71 MB/s
+  Read (16 tasks): 10192
+10192.37 MB/s
+
+[3/6] Shared file I/O (tests GPFS locking)...
+  Shared write: 14526
+14505.07 MB/s
+  Shared read: 15335
+15333.33 MB/s
+
+[4/6] Small block I/O (64KB blocks)...
+  Small write: 276922
+17264.67 MB/s
+  Small read: 230453
+14402.23 MB/s
+
+[5/6] Network bandwidth test...
+  Network bandwidth: 12164.47 MB/s
+
+[6/6] Network latency test...
+  Latency (8 bytes): 0.88 μs
+
+==========================================
+Test complete!
+Results saved to: /well/kir-scratch/sansom/mat611/regression-suite/RESULTS/results_20260115_153057.json
+==========================================
