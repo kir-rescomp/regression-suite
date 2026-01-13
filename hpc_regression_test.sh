@@ -14,8 +14,8 @@ module load IOR/4.0.0-gompi-2023a jq/1.8.1-GCCcore-12.3.0 OSU-Micro-Benchmarks/7
 
 # Configuration
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
-TESTDIR="/gpfs3/well/kir-scratch/sansom/mat611/regression-suite/unit_tests/RESULTS/regression_test_${TIMESTAMP}"
-RESULTS_DIR="/gpfs3/well/kir-scratch/sansom/mat611/regression-suite/unit_tests/RESULTS"
+TESTDIR="..somepath/RESULTS/regression_test_${TIMESTAMP}"
+RESULTS_DIR="....somepath/RESULTS"
 RESULTS_FILE="${RESULTS_DIR}/results_${TIMESTAMP}.json"
 
 # Test parameters
