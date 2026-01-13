@@ -10,7 +10,7 @@
 #SBATCH --time            00:30:00
 
 module purge
-module load IOR/4.0.0-gompi-2023a jq/1.8.1-GCCcore-12.3.0
+module load IOR/4.0.0-gompi-2023a jq/1.8.1-GCCcore-12.3.0 OSU-Micro-Benchmarks/7.5.2-gompi-2023a
 
 # Configuration
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
