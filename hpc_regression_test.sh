@@ -14,15 +14,15 @@ module load IOR/4.0.0-gompi-2023a jq/1.8.1-GCCcore-12.3.0 OSU-Micro-Benchmarks/7
 
 # Configuration
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
-TESTDIR="..somepath/RESULTS/regression_test_${TIMESTAMP}"
-RESULTS_DIR="....somepath/RESULTS"
+TESTDIR="${PWD}/RESULTS/regression_test_${TIMESTAMP}"
+RESULTS_DIR="${PWD}/RESULTS"
 RESULTS_FILE="${RESULTS_DIR}/results_${TIMESTAMP}.json"
 
 # Test parameters
 IOR_NODES=$SLURM_NNODES
 IOR_TASKS_PER_NODE=4
-FILESIZE="16g"           # Per process for single-client
-FILESIZE_MULTI="4g"      # Per process for multi-client
+FILESIZE="32g"           # Per process for single-client
+FILESIZE_MULTI="8g"      # Per process for multi-client
 BLOCKSIZE="1m"
 
 mkdir -p $TESTDIR $RESULTS_DIR
