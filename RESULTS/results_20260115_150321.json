@@ -1,0 +1,19 @@
+{
+  "timestamp": "20260115_150321",
+  "date": "2026-01-15T15:03:21+00:00",
+  "hostname": "compe024.hpc.in.bmrc.ox.ac.uk",
+  "nodes": 4,
+  "test_directory": "/well/kir-scratch/sansom/mat611/regression-suite/RESULTS/regression_test_20260115_150321",
+  "tests": {
+    "gpfs_single_write": {"value": 2926.43, "unit": "2926.24"},
+    "gpfs_single_read": {"value": 1021.17, "unit": "1021.17"},
+    "gpfs_multi_write": {"value": 13969, "unit": "13964.93"},
+    "gpfs_multi_read": {"value": 7209, "unit": "7208.52"},
+    "gpfs_shared_write": {"value": 10848, "unit": "10830.51"},
+    "gpfs_shared_read": {"value": 16430, "unit": "16429.20"},
+    "gpfs_small_write": {"value": 199668, "unit": "12448.07"},
+    "gpfs_small_read": {"value": 270544, "unit": "16907.17"},
+    "network_bandwidth": {"value": 12061.77, "unit": "MB/s"},
+    "network_latency": {"value": 1.05, "unit": "microseconds"}
+  }
+}
