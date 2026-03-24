@@ -1,5 +1,7 @@
+<h1 align="center">Regression Suite</h1>
+
 <p align="center">
-  <img src="./assets/images/regression_suite_logo.png" alt="regression-logo" width="300"/>
+  <img src="./assets/images/regression_suite_logo.png" alt="regression-logo" width="400"/>
 </p>
 
 
